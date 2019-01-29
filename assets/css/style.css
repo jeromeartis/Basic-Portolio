@@ -1,182 +1,260 @@
-
 * {
   box-sizing: border-box;
   border-radius: 5px;
-
 }
+
 header {
-  border: 3px solid gray;
-  background: white;
+
+  border-radius: 10px;
 }
 
 h1 {
-
-
-}
-
-span {
-  //border-radius: 10px;
-  margin-left: auto;
-  background-color: #6ed3cf;
-  padding: 20px 30px;
-  font-size:56px;
-  margin: 20px;
-  margin-left: 0px;
-  color: white;
-}
-body {
-
-  margin: 30px;
-  background: lightgray;
+  padding-bottom: 20px;
 
 }
 
-h2 {
-  font-size: 32px;
-  color: black;
-  font-weight:bolder;
-  text-shadow: 2px 2px blue;
-
+/* #about-btn, #portfolio-btn, #contact-btn {
+  font-size: 20px;
+  color:white;
+  padding-left: 2px;
+  position: relative;
+  left: 1100px;
+  padding-bottom: 60px;
 }
 
-h3 {
-  font-size: 28px;
+#about-btn:hover, #portfolio-btn:hover, #contact-btn:hover {
+  color: skyblue;
   font-weight: bold;
-  font-style: oblique;
-  text-shadow: 2px 2px blue;
+} */
+/* Highlight Header */
+span {
+  background-color: skyblue;
+  padding: 30px 50px;
+  padding-bottom: 70px;
+  padding-top: 5px;
+  font-size: 70px;
+  margin: 200px;
+  text-shadow: 2px 2px black;
 }
-/* hr {
 
-  background-color: #6ed3cf;
+/* Overlay page */
+body {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* About Me */
+h2 {
+  padding: 15px;
+  margin-left: 120px;
+  font-size: 44px;
+  color: skyblue;
+  font-weight: bolder;
+  text-shadow: 2px 4px black;
+  padding-top: 20px;
+}
+
+.group-btn {
+  padding: 10px;
+  position: relative;
+  left: 1100px;
+}
+a {
+  text-decoration-color: black;
+  font-size: 10px;
+}
+button :hover {
+  padding: 7px;
+  color: skyblue;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 10px ;
+}
+.button:hover {
+  background-color: skyblue;
+}
+/* footer highlight  */
+hr {
+  background-color: skyblue;
   padding-bottom: 10px;
   margin-bottom: auto;
-} */
-#about {
-  text-align: right;
-  float: right;
-  padding: 5px;
-  color: gray;
-
-}
-#portfolio {
-  text-align: right;
-  float: right;
-  padding: 5px;
-  color: gray;
+  width: 100%;
 }
 
-#contact {
-  text-align: right;
-  float: right;
-  padding: 5px;
-  color: gray;
-}
-
-#about:hover {
-  color: blue;
-  font-weight: bold;
-}
-
-#portfolio:hover {
-  color: blue;
-  font-weight: bold;
-}
-
-#contact:hover {
-  color: blue;
-  font-weight: bold;
-}
-
-/* .bottom {
-  //margin: 60px;
-  background: #7a7a7a;
-  padding: 30px 20px;
+.bottom {
+  background: grey;
+  width: 100%;
+  padding: 20px;
   text-align: center;
-} */
+}
+
+.background-container {
+  background-color: #f0f0f0;
+  width: 75%;
+  height: 650px;
+  margin-left: 100px;
+  border: 2px solid gray;
+  overflow: auto;
+}
 
 .container {
-  margin-bottom:20px;
-  overflow: hidden;
-  //padding: 20;
+  padding-left: 10px;
+  //margin-bottom: 20px;
+  margin-left: 130px;
+  padding: 20px;
   width: 980px;
-  height: 600px;
-  border: 2px solid gray;
+  height: 550px;
+  border: 3px solid gray;
   background-color: white;
-  //border-radius: 10px;
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
-
 }
-.social_media {
-  width: 38%;
-  height: 600px;
-  float:right;
-  border: 2px solid gray;
-  background-color: white;
-  text-align: center;
-}
-
 
 /* Contact HTML Sheet
 ---------------------------------------------------------------------------*/
 h4 {
-  font-size: 32px;
+  //font-size: 32px;
 }
-label:focus {
-  position: inherit;
-}
-#message {
-  margin-top: 300px;
-  width: 680px;
-  height:500px;
-}
-/* .botton-padding {
 
-  background-color: #6ed3cf;
+.bottom-footer {
+  margin-left: 150px;
+  background-color: skyblue;
   padding-bottom: 10px;
   margin-bottom: auto;
-} */
+  width: 61%;
+}
+
+.header-line {
+  width: 900px;
+  position: absolute;
+  left: 40px;
+  border-bottom: 3px solid gray;
+  margin-bottom: 70px;
+}
+
+.bottom-contact {
+  margin-left: 150px;
+  background: grey;
+  width: 61%;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.form-fullname {
+  padding: 20px;
+  left: 40px;
+}
+
+.form-email {
+  padding: 20px;
+  left: 40px;
+}
+
+.form-message {
+  padding: 20px;
+  left: 20px;
+  padding-bottom: 40px;
+}
+
+.submit-btn {
+  padding: 7px;
+  left: 400px;
+  position: relative;
+  background-color: skyblue;
+  border: 2px solid black;
+}
+
+.submit-btn:hover {
+  color: red;
+}
+
+#fullname {
+  width: 90%;
+  height: 40px;
+}
+
+#email {
+  width: 90%;
+  height: 40px;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  height: 150px;
+}
 
 .contact_body {
-  background-position: center;
-  width:980px;
-  height:600px;
-  background: white;
+  width: 980px;
+  height: 650px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  position: relative;
+  left: 150px;
 }
 
 /* Profolio HTML page
 ---------------------------------------------------------------------------*/
-.portfolio_page {
- width: 1080px;
- height: 700px;
- background: white;
- background-position: center;
+/* <hr class = "striped-border"> adds grey line diving Title */
+.striped-border {
+  margin-left: 0px;
+  background-color: gray;
+  padding-bottom: 1px;
+  margin-bottom: 5px;
+  width: 100%;
 }
 
-/* #bottom_footer {
-  background: #7a7a7a;
-  width: 980px;
-  padding: 30px;
-  text-align: center;
-} */
-/* #porfolio_body {
-  margin-bottom: : 30px
-} */
-/* .buffer {
+.header-line2 {
+  width: 1000px;
+  position: relative;
+  left: 40px;
+  border-bottom: 3px solid gray;
+  margin-bottom: 30px;
+}
 
-  margin:20px;
-} */
-.ny{
-  position:sticky;
+.ny {
+  padding: 20px;
+  background-color: darkgrey;
+  position: fixed;
+  left: 150px;
+  border: 3px solid black;
 }
 
 .higgins {
-  position: sticky;
+  padding: 20px;
+  background-color: darkgrey;
+  position: fixed;
+  right: 600px;
+  border: 3px solid black;
 }
 
 .family {
-  position: sticky;
+  padding: 20px;
+  background-color: darkgrey;
+  left: 150px;
+  position: fixed;
+  bottom: 120px;
+  border: 3px solid black;
 }
+
 .GE_Digital {
-  position: sticky;
+  padding: 20px;
+  background-color: darkgrey;
+  position: fixed;
+  bottom: 115px;
+  right: 625px;
+  border: 3px solid black;
 }

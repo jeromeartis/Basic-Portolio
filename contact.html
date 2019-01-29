@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My BIO</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
 
-  <body>
-    <header>
-      <h1><span>Jerome Artis</span></h1>
-      <a id="about" href="index.html">About</a>
-      <a id="portfolio" href="portfolio.html">Portfolio</a>
-      <a id="contact" href="contact.html">Contact</a>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title>My BIO</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-    <div class="contact_body">
-  <form action="action_page.php">
+<body background="http://www.hdwallpapers.in/walls/brooklyn_bridge_walkway-wide.jpg?w=650">
+  <header>
+    <h1><span>Jerome Artis</span></h1>
+
+    <div class="group-btn">
+      <a class="button" href="index.html">About</a>
+      <a class="button" href="portfolio.html">Portfolio</a>
+      <a class="button" href="contact.html">Contract</a>
+    </div>
+
+  </header>
+
+  <div class="contact_body">
+
     <h2>Contact</h2>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="header-line">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+    <div class="form-fullname">
+      <label for="name">Name:</label>
+      <input type="name-text" id="fullname" name="fname" placeholder=" Enter Full Name..">
+    </div>
 
-    <label for="country">Email</label>
-    <input id="email" name="email">
+    <div class="form-email">
+      <label for="email">Email:</label>
+      <input type="email-text" id="email" name="email" placeholder=" Enter Email address">
+    </div>
 
+    <div class="form-message">
+      <label for="message">Message:</label>
+      <textarea name="message" placeholder=" Write something.."></textarea>
+    </div>
 
-    <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+    <div class="form-submit">
+      <button class="submit-btn">Submit</button>
+    </div>
 
-  </form>
-  <hr>
-</div>
-      <footer class="bottom">Copyright(R)</footer>
+  </div>
+
+</body>
+<hr>
+<footer class="bottom">Copyright&copy;</footer>
+
+</html>
