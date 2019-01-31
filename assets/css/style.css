@@ -1,40 +1,30 @@
-* {
+/* * {
   box-sizing: border-box;
   border-radius: 5px;
-}
+} */
 
 header {
-
+  margin-top: 60px;
   border-radius: 10px;
 }
 
 h1 {
-  padding-bottom: 20px;
+  //padding-bottom: 10px;
+ //margin-top: 60px;
 
 }
 
-/* #about-btn, #portfolio-btn, #contact-btn {
-  font-size: 20px;
-  color:white;
-  padding-left: 2px;
-  position: relative;
-  left: 1100px;
-  padding-bottom: 60px;
-}
-
-#about-btn:hover, #portfolio-btn:hover, #contact-btn:hover {
-  color: skyblue;
-  font-weight: bold;
-} */
 /* Highlight Header */
 span {
   background-color: skyblue;
-  padding: 30px 50px;
-  padding-bottom: 70px;
-  padding-top: 5px;
-  font-size: 70px;
-  margin: 200px;
-  text-shadow: 2px 2px black;
+  padding: 7px;
+  padding-bottom: 0px;
+  font-size: 48px;
+  margin-left: 480px;
+  margin-right: 520px;
+  color: white;
+  text-shadow: 3px 5px black;
+  border-radius: 5px;
 }
 
 /* Overlay page */
@@ -48,23 +38,49 @@ body {
 
 /* About Me */
 h2 {
-  padding: 15px;
-  margin-left: 120px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 230px;
   font-size: 44px;
   color: skyblue;
   font-weight: bolder;
   text-shadow: 2px 4px black;
   padding-top: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-.group-btn {
-  padding: 10px;
-  position: relative;
-  left: 1100px;
+h3 {
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 44px;
+  color: skyblue;
+  font-weight: bolder;
+  text-shadow: 2px 4px black;
+  padding-top: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h4 {
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 80px;
+  font-size: 44px;
+  color: skyblue;
+  font-weight: bolder;
+  text-shadow: 2px 4px black;
+  padding-top: 0px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h5{
+  font-size: Large;
+  //padding-left: 20px;
 }
 a {
   text-decoration-color: black;
   font-size: 10px;
+
+}
+li {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 button :hover {
   padding: 7px;
@@ -86,63 +102,66 @@ button :hover {
 .button:hover {
   background-color: skyblue;
 }
-/* footer highlight  */
-hr {
-  background-color: skyblue;
-  padding-bottom: 10px;
-  margin-bottom: auto;
-  width: 100%;
-}
+
 
 .bottom {
+
   background: grey;
+  margin-top: 90px;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
+  border-top: 10px solid skyblue;
 }
 
 .background-container {
   background-color: #f0f0f0;
   width: 75%;
-  height: 650px;
+  height: 680px;
   margin-left: 100px;
   border: 2px solid gray;
-  overflow: auto;
+  margin: auto;
+  border-radius: 10px;
 }
 
 .container {
-  padding-left: 10px;
-  //margin-bottom: 20px;
-  margin-left: 130px;
-  padding: 20px;
-  width: 980px;
-  height: 550px;
-  border: 3px solid gray;
-  background-color: white;
-  font-size: 17px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  margin: 0 auto;
+  width: 960px;
+  height: 500px;
+  //border: 3px solid gray;
+  background-color: white
 
+}
+ #text-body1, #text-body2 {
+
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin-left: 220px;
+  font-size:18px;
+}
+/* section {
+
+ //padding-top:10px;
+ //padding-left:20px;
+
+} */
 /* Contact HTML Sheet
 ---------------------------------------------------------------------------*/
-h4 {
-  //font-size: 32px;
-}
 
-.bottom-footer {
+/* .bottom-footer {
   margin-left: 150px;
   background-color: skyblue;
   padding-bottom: 10px;
   margin-bottom: auto;
   width: 61%;
-}
+} */
 
 .header-line {
   width: 900px;
   position: absolute;
-  left: 40px;
-  border-bottom: 3px solid gray;
+  right: 500px;
+  border-bottom: 1px solid gray;
   margin-bottom: 70px;
+  margin-top: 50px;
 }
 
 .bottom-contact {
@@ -152,7 +171,15 @@ h4 {
   padding: 20px 10px;
   text-align: center;
 }
+.bottom1 {
 
+  background: grey;
+  margin-top: 60px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  border-top: 10px solid skyblue;
+}
 .form-fullname {
   padding: 20px;
   left: 40px;
@@ -170,15 +197,18 @@ h4 {
 }
 
 .submit-btn {
-  padding: 7px;
-  left: 400px;
+  padding: 15px;
+  left: 80px;
   position: relative;
   background-color: skyblue;
   border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 340px;
 }
 
 .submit-btn:hover {
-  color: red;
+  background-color: lightgreen;
 }
 
 #fullname {
@@ -200,15 +230,22 @@ textarea {
 .contact_body {
   width: 980px;
   height: 650px;
+  padding-top: 50px;
+  margin-left: 25px;
+  margin: 0 auto;
   background: #f0f0f0;
   border-radius: 10px;
-  position: relative;
-  left: 150px;
+  margin-bottom: 50px;
+  //left: 150px;
 }
 
 /* Profolio HTML page
 ---------------------------------------------------------------------------*/
 /* <hr class = "striped-border"> adds grey line diving Title */
+
+.fname,.email,.message{
+  margin-left: 400px;
+}
 .striped-border {
   margin-left: 0px;
   background-color: gray;
@@ -218,43 +255,79 @@ textarea {
 }
 
 .header-line2 {
-  width: 1000px;
+  width: 950px;
   position: relative;
-  left: 40px;
-  border-bottom: 3px solid gray;
-  margin-bottom: 30px;
+  left: 20px;
+  border-bottom: 1px solid gray;
+  //margin-bottom: 30px;
 }
+.bottom2 {
 
+  background: grey;
+  margin-top: 60px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  border-top: 10px solid skyblue;
+}
 .ny {
-  padding: 20px;
-  background-color: darkgrey;
+  padding: 10px;
+  background-color: black;
   position: fixed;
-  left: 150px;
-  border: 3px solid black;
+  left: 500px;
+  border: 1px solid yellow;
+}
+.ny:hover{
+  transition: all 1s;
+  border: 1px solid navy;
 }
 
 .higgins {
-  padding: 20px;
-  background-color: darkgrey;
-  position: fixed;
-  right: 600px;
-  border: 3px solid black;
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  right: 580px;
+  border: 1px solid black;
+}
+.higgins:hover {
+  transition: all 1s;
+  border-radius: 100pt;
+}
+.family {
+  padding: 10px;
+  background-color: black;
+  left: 500px;
+  position: absolute;
+  bottom: 230px;
+  border: 1px solid black;
 }
 
-.family {
-  padding: 20px;
-  background-color: darkgrey;
-  left: 150px;
-  position: fixed;
-  bottom: 120px;
-  border: 3px solid black;
+.family:hover {
+  transition: all 1s;
+  //border-radius: 100pt;
+  opacity: 0.5;
 }
 
 .GE_Digital {
-  padding: 20px;
-  background-color: darkgrey;
+  padding: 10px;
+  background-color: black;
   position: fixed;
-  bottom: 115px;
-  right: 625px;
-  border: 3px solid black;
+  bottom: 230px;
+  right: 580px;
+  border: 1px solid black;
+}
+.GE_Digital:hover {
+  transition: all 1s;
+  border-radius: 100pt;
+}
+.portfolio-container {
+  width: 980px;
+  height: 650px;
+  padding-top: 50px;
+  margin-left: 25px;
+  margin: 0 auto;
+  background: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
 }
